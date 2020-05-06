@@ -76,8 +76,8 @@ Widget _button() {
       child: RaisedButton(
         color: Colors.blue,
         elevation: 40.0,
-        padding: EdgeInsets.symmetric(horizontal:50.0, vertical: 10.0),
-        shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)) ,
+        padding: EdgeInsets.symmetric(horizontal:40.0, vertical: 20.0),
+        shape:StadiumBorder(),
         child: Text('Bienvenido', style: estilo,),
         onPressed: (){}
         )
